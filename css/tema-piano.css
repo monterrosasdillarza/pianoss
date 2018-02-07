@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+#principal { /*left y top = posicion (0,0)*/
+				position:absolute;
+				left:0;
+				top:0;
+				width:100%;
+				height: 100%;
+				}
+			#pantalla {
+				float:left;
+				width:100%;
+				height:25%;
+				background:#51EF22;
+				text-align:center;
+				color:#FFF;
+				font-size:4em;/*em unidad de medida que se utiliza el tamaño de impresion es decir 4 veces al tamaño de la medida y garantiza el diseño*/
+				font-weight:bold;
+				font-family:"Times New Roman", Times, serif;
+				}
+			#teclado{
+				float:left;
+				width:100%;
+				height:75%;
+				}
+			.nota{ /*como nota es clase se le declara con .*/
+				position:inherit; /*relativa al teclado*/
+				float:left;
+				height:100%;
+				outline:#085FC8 solid 2px;/*linea de contorno*/
+				background:#0FDB85;
+				width:7.142856%;/*la medida se obtiene de dividir el 100% entre el numero de notas*/
+				}
+			
+		.nota1 {
+					top:7.3%;
+					position:absolute;
+					float:left;
+					height:90%;
+					background-color:#91F014;
+				}
+				#doS {
+					margin-top:9%;
+					width:30PX;
+					height:40%;
+					float:left;
+					margin-left:6.3%;
+				}
+				#reS {
+					
+				    margin-top:9%;
+				    width:30PX;
+					height:40%;
+					float:left;
+					margin-left:13.5%;
+					}
+				#faS {
+					margin-top:9%;
+					width:30PX;
+					height:40%;
+					float:left;
+					margin-left:27.7%;
+					}
+				#solS {
+					margin-top:9%;
+					width:30PX;
+					height:40%;
+					float:left;
+					margin-left:34.9%;
+				}
+				#laS {
+					margin-top:9%;
+					width:30PX;
+					height:40%;
+					float:left;
+					margin-left:42%;
+				}
+				#doSS {
+					margin-top:9%;
+					width:30PX;
+					height:40%;
+					float:left;
+					margin-left:56.3%;
+				}
+				#reSS {
+					margin-top:9%;
+					width:30PX;
+					height:40%;
+					float:left;
+					margin-left:63.4%;
+				}
+				#faSS {
+					margin-top:9%;
+					width:30PX;
+					height:40%;
+					float:left;
+					margin-left:77.8%;
+				}
+				#solSS {
+					margin-top:9%;
+					width:30PX;
+					height:40%;
+					float:left;
+					margin-left:84.9%;
+				}
+				#laSS {
+					margin-top:9%;
+					width:30PX;
+					height:40%;
+					float:left;
+					margin-left:92%;
+				}
+			.textonota{
+				position:relative;
+				top:80%;
+				text-align:center;
+				font-size:1.5em;
+				font-weight:bold;
+				color:#000000;
+				}
+				
+			.tocada{
+				background:#000000;
+				color:#FFF;
+				outline:#FF0 solid 1px;
+				}
